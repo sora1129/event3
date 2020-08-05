@@ -1,0 +1,493 @@
+*{
+	box-sizing:border-box;
+  padding:0;
+	margin:0;
+	word-break:normal;
+  word-wrap:break-word;
+  line-height: normal;
+  font-family: "游明朝体", "Yu Mincho","YuMincho";
+}
+
+body{
+	background-color:#fff;
+  color:#000;
+  letter-spacing: 1;
+}
+img{
+	vertical-align:middle;
+	margin:0;
+	padding:0;
+	border:0;
+	max-width:100%;
+}
+
+ul li{
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin:0px;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.container {
+  width: 980px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  height: 70px;
+  overflow: hidden;
+}
+
+.header {
+  padding: 10px 0;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  padding-top: 10px;
+}
+
+.header-right p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* main */
+.top {
+  overflow: hidden;
+  height: 1310px;
+  background-image: url(../images/main_bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.texts {
+  padding-top: 300px;
+}
+
+main h2 {
+  font-size: 52px;
+}
+
+main h1 {
+  font-size: 150px;
+  font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
+}
+
+main h3 {
+  font-size: 22px;
+  font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
+}
+
+main p {
+  font-size: 18px;
+  font-weight: 900;
+  padding-top: 30px;
+  line-height: 2;
+}
+
+.top-sign {
+  text-align: right;
+}
+
+/* section1 */
+section {
+  height: 1700px;
+  overflow: hidden;
+  position: relative;
+}
+
+section p,section h1,section span,section li {
+  font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
+}
+
+.section_top {
+  position: relative;
+}
+
+.section1 {
+  height: 700px;
+  padding-top: 100px;
+  position: relative;
+}
+
+.section1::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0; 
+  height: 100%;
+  background-image: url(../images/content1_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  transition: 1s;
+  z-index: 0;
+}
+
+.fade::before {
+  width: 100%;
+  z-index: 0;
+}
+
+.section_img img {
+  width: 140px;
+}
+
+.section-top {
+  padding-top: 20px;
+}
+
+.section-top p {
+  font-size: 28px;
+  font-weight: 600;  
+}
+
+.section-top h1 {
+  font-size: 52px;
+}
+
+/* seminar-content */
+.seminar-content {
+  padding-top: 315px;
+  z-index: 1;
+}
+
+#seminar-content1 {
+  padding-top: 280px;
+}
+
+.event-titles {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.month {
+  float: left;
+  background-color: #1e59b3;
+  font-size: 20px;
+  padding: 18px 10px;
+  border-radius: 50%;
+  position: relative;
+  left: 15px;
+  top: 10px;
+}
+
+.event-top {
+  background-color: #988038;
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 5px;
+}
+
+.event-title {
+  font-size: 30px;
+}
+
+.event-title-day {
+  float: right;
+  font-size: 18px;
+  position: relative;
+  top: -32px;
+  right: 50px;
+}
+
+.event-title-day span.big {
+  font-size: 22px;
+}
+
+.event-btm {
+  background-color: #000000;
+  padding-top: 10px;
+}
+
+.event-section-title {
+  font-size: 24px;
+}
+
+.event-texts {
+  padding-top: 30px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.event-texts p {
+  margin-bottom: 15px;
+}
+
+.event-texts {
+  display: flex;
+  justify-self: start;
+}
+
+.event-lists li {
+  padding: 3px 20px;
+  margin-bottom: 10px;
+}
+
+.red {
+  background-color: #ff0000;
+  color: #ffffff; 
+  text-align: center;
+}
+
+.small {
+  font-size: 14px;
+}
+
+.content-texts p {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: left;
+  font-size: 16px;
+  font-family: "游明朝体", "Yu Mincho","YuMincho";
+  line-height: 1.8;
+}
+
+.select-day {
+  padding: 10px 0;
+  border-top: 2px dotted #000000;
+}
+
+.start-month {
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: 600;
+  border-top: 3px solid #000000;
+  border-bottom: 3px solid #000000;
+}
+
+.blak {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+.guide {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  font-size: 18px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+#line {
+  padding-right: 100px;
+}
+
+.line,.email {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 25px;
+}
+
+#line img {
+  width: 160px;
+  border: 3px solid #02830c;
+}
+
+.email img {
+  width: 160px;
+}
+
+.click {
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.visual_sp {
+  display: none; 
+}
+
+/* section2 */
+.section2 {
+  height: 700px;
+  padding-top: 100px;
+  position: relative;
+}
+
+.section2::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0; 
+  height: 100%;
+  background-image: url(../images/content2_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  transition: 1s;
+  z-index: 0;
+}
+
+.fade::before {
+  width: 100%;
+  z-index: 0;
+}
+
+#section-top2 {
+  color: #ffffff;
+}
+
+#section-top2 h1 {
+  font-family: "游明朝体", "Yu Mincho","YuMincho";
+}
+
+/* section3 */
+.section3 {
+  height: 700px;
+  padding-top: 100px;
+  position: relative;
+}
+
+.section3::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0; 
+  height: 100%;
+  background-image: url(../images/content3_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  transition: 1s;
+  z-index: 0;
+}
+
+.fade::before {
+  width: 100%;
+  z-index: 0;
+}
+
+#section3 {
+  color: #ffffff;
+}
+
+#section3_place {
+  text-align: left;
+}
+
+/* profile */
+#profile{
+	background-color: #988038;
+	color: #fff;
+  padding: 60px 0 20px;
+}
+
+#profile p {
+  font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
+  line-height: 1.8;
+}
+
+.profile_in{
+	display: flex;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.profile_img{
+	width: 230px;
+}
+.profile_txt{
+	width: 750px;
+}
+.profile_ttl{
+	font-size: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.profile_txt{
+  font-size: 16px; 
+}
+
+.visible-sp {
+  display: none;
+}
+
+.profile_img2{
+	margin-top: 30px;
+}
+
+/* footer */
+.footer-wrapper {
+  height: 100%;
+  background-color: #344A67;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.footer-wrapper a {
+  font-family: sans-serif;
+  color: #333333;
+}
+
+.footer-wrapper a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  overflow: hidden;
+  width: 1010px;
+  margin: 10px auto 20px;
+  padding: 20px 0 10px 0;
+}
+
+.footer-bottom-wrapper {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.footer-bottom {
+  overflow: hidden;
+  width: 1000px;
+  height: 37px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  padding: 20px 0 10px;
+  font-size: 11px;
+}
+
+ul.footer-menu {
+  overflow: hidden;
+  float: left;
+}
+
+ul.footer-menu li {
+  float: left;
+  margin-right: 15px;
+  counter-reset: #333333;
+}
+
+.copyright {
+  float: right;
+  font-size: 10px;
+  color: #929292;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+}
